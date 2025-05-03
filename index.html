@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 
+    *3 button:
+        1:easy mode
+            3 div - ფერები ჰგვანან ერთმანეთს
+        2:hard
+            6 div - ფერები ჰგვანან ერთმანეთს
+        3:try again
+    div---კითხვის დასასმელად
+    -->
+
+    <header>
+      <div class="box" id="genesisBox"></div>
+      <div class="scorePnt">
+        <p>Your score: <span id="score">0</span></p>
+      </div>
+    </header>
+
+    <main>
+      <section class="sec">
+        <button id="easy">Easy mode</button>
+        <button id="hard">Hard mode</button>
+      </section>
+
+      <section class="sec" id="sec1">
+        <div class="sec" id="sec1">
+          <div class="box" id="box1" data-value=1></div>
+          <div class="box" id="box2"></div>
+          <div class="box" id="box3"></div>
+        </div>
+        <div class="sec" id="sec1">
+          <div class="box" id="box4"></div>
+          <div class="box" id="box5"></div>
+          <div class="box" id="box6"></div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div></div>
+        <button id="tryAg">Try again</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
