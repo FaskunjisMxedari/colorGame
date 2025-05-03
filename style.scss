@@ -15,11 +15,11 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  div.scorePnt{
+  div.scorePnt {
     width: 12vw;
     height: 7vh;
-    background-color: rgb(64,130,159);
-    border: solid 1.9px rgb(152,79,140);
+    background-color: rgb(64, 130, 159);
+    border: solid 1.9px rgb(152, 79, 140);
     border-radius: 40px;
     display: flex;
     justify-content: center;
@@ -27,7 +27,7 @@ header {
     font-size: 110%;
     text-align: center;
     align-items: center;
-    span{
+    span {
       color: black;
     }
   }
